@@ -19,8 +19,8 @@ rotuloMensagem = tk.Label(janela, text="Clique no botão")
 rotuloMensagem.pack(pady=10)
 
 #Configuração do botão
-imagemBotão = tk.PhotoImage(file="click.png")
-botao = tk.Button(janela, image=imagemBotão, command=botaoclick).pack(pady=10)
+imagemBotão = tk.PhotoImage(file="click.png")#-- Definindo o caminho da imagem
+botao = tk.Button(janela, image=imagemBotão, command=botaoclick).pack(pady=10) #-- Colocando a imagem no botão e dando a função "botaoclck"
 
 
 janela.mainloop()
